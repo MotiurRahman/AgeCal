@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Age Calculator</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="action_more">More Apps</string>
+    <string name="action_ratings">Feedback Please</string>
+    <string name="action_update">Update this App</string>
+    <string name="action_close">Exit App</string>
+    <string name="home">Home</string>
+    <string name="share">Share App</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-4951262838901192/7923873628</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-4951262838901192/4012548772</string>
+
+    <string name="App_id">ca-app-pub-4951262838901192~8234988525</string>
+
+
+    <!--<string name="action_ratings">Admob key</string>-->
+    <!--<string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!--<string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>-->
+</resources>

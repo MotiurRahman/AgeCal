@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layoutshape">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="2.0"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="left"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/day"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:hint="dd"
+            android:inputType="phone"
+            android:maxLength="02"
+            android:nextFocusDown="@+id/month"
+            android:padding="10dp"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorGray"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/day_seperator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textColor="@color/colorGreen"
+            android:textSize="20sp" />
+
+
+        <EditText
+            android:id="@+id/month"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:hint="mm"
+            android:inputType="phone"
+            android:maxLength="02"
+            android:nextFocusDown="@+id/year"
+            android:padding="10dp"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorGray"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/month_separator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textColor="@color/colorGreen"
+            android:textSize="20sp" />
+
+
+        <EditText
+            android:id="@+id/year"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:hint="year"
+            android:inputType="phone"
+            android:maxLength="04"
+            android:padding="10dp"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorGray"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/open_cal"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_weight="1.0"
+        android:padding="5dp"
+        android:background="@drawable/calendershape"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:onClick="open_cal"
+        android:text="Calender"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
+        android:textSize="10sp" />
+
+
+</LinearLayout>
+
+
+

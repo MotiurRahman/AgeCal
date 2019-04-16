@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="30dp"
+    android:background="@drawable/layoutshape"
+    android:orientation="horizontal"
+    android:padding="15dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:gravity="right"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/totalYears"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="right"
+            android:text="Total Years: "
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/totalMonths"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="right"
+            android:text="Total Months: "
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/totalWeeks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Weeks: "
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/totalDays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Days: "
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/totalHours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Hours: "
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/totalMinutes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Minutes: "
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/totalSeconds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Seconds: "
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:gravity="left"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/total_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="00"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/total_months"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="00"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/total_weeks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/total_days"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/total_hours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/total_minutes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/total_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+

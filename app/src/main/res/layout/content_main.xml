@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/roundedbutton"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Age Calculator"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/selectorbtn"
+        android:gravity="center"
+        android:onClick="ageCal"
+        android:text="Get Started"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="40dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/selectorbtn"
+        android:gravity="center" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp">
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/diagonalshape" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/diagonalshape_right" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
